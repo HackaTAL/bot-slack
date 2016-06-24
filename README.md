@@ -12,14 +12,12 @@ This repo is a simple architecture to start a slackbot project using Recast.AI.
 * Log in to Slack and Create a team.
 * Go to : https://yourteam.slack.com/services/new/bot (change "yourteam" with the actual name of your team)
 * Follow the bot creation process, you will then be able to see your token
-* Complete the config .js file with your slack token and your bot name
 
 ## Get your Recast Bot Token
 
 * Log in to your recast account
 * Then on your profile, choose your Bot
 * In the settings tab, is your precious request Token
-* Complete the config.js file with your token
 
 ## Launch your bot
 
@@ -35,6 +33,7 @@ git clone https://github.com/HackaTAL/bot-slack.git
 var tokens =
 {
 	slack: YOUR_SLACK_TOKEN,
+  botName: YOU_BOT_NAME,
 	recast: YOUR_RECAST_TOKEN
 }
 ```

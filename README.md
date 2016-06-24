@@ -32,9 +32,9 @@ git clone https://github.com/HackaTAL/bot-slack.git
 ```
 var tokens =
 {
-	slack: YOUR_SLACK_TOKEN,
+  slack: YOUR_SLACK_TOKEN,
   botName: YOU_BOT_NAME,
-	recast: YOUR_RECAST_TOKEN
+  recast: YOUR_RECAST_TOKEN
 }
 ```
 
